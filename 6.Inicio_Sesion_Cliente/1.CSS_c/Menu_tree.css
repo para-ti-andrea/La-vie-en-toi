@@ -1,0 +1,73 @@
+/*Menu acordeon "tree"*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+.contenedor-menu{
+	margin-left: 2%;
+	margin-top: 3%;
+	width: 15%;
+	min-width: 300px;
+	display: inline-block;
+	line-height: 18px;
+}
+
+.contenedor-menu .menu{
+	width: 100%;
+}
+.contenedor-menu ul{
+	list-style: none;
+}
+.contenedor-menu .menu li a{
+	color: white;
+	display: block;
+	padding: 15px 20px;
+	background: black;
+}
+
+.contenedor-menu .menu li a:hover{
+	background: orange;
+	color: black;
+}
+.contenedor-menu .menu .icono{
+	font-size: 12px;
+	line-height: 18px;
+}
+.contenedor-menu .menu .icono.Izquierda{
+	float: left;
+	margin-right: 10px;
+}
+.contenedor-menu .menu .icono.derecha{
+	float: right;
+	margin-left:10px;
+}
+
+.contenedor-menu .menu ul{
+	display: none;
+}
+
+.contenedor-menu .menu ul li a{
+	background: #444444;
+	color: white;
+}
+.contenedor-menu .menu > a{
+	background: green;
+	color: white;
+}
+.contenedor-menu h3{
+	color: white;
+	display: block;
+	padding: 15px 20px;
+	background: black;
+}
+.fa-bars{
+	float: right;
+}
+
+/*Fin menu acordeon*/

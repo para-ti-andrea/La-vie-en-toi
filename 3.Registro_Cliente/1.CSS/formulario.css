@@ -1,0 +1,128 @@
+.registro{
+	width:70%;
+	height:730px;
+	margin-left: 15%;
+	margin-top:5%;
+	margin-bottom: 5%;
+	border-radius: 15px;
+}
+
+.registro .form{
+	width: 70%;
+	max-width: 650px;
+	margin: auto;
+	padding: 5px 35px;
+	margin-top: 30px;
+	padding-bottom: 30px;
+	border-radius: 3px;
+}
+
+.registro .form .form-label{
+	display: block;
+	color: black;
+	font-size: 16px;
+	font-family: roboto;
+	position: relative;
+}
+
+.registro .form .form-input, .form-textarea{
+	background:  #f8f8f8;
+	border:none;
+	outline: none;
+	border-bottom: 2px solid black;
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 16px;
+	color: black;
+	font-family: roboto;
+}
+.registro .form .form-textarea{
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+
+.registro .form .btn-submit{
+	width: 40%;
+	font-family: roboto;
+	outline: none;
+	background: black;
+	font-size: 16px;
+	color: white;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+	float: right;
+}
+.registro .form .btn-submit:hover{
+	background: orange;
+	color: black;
+}
+
+.registro .form .btn-cancelar{
+	width: 40%;
+	text-align: center;
+	text-decoration: none;
+	font-family: roboto;
+	outline: none;
+	background: black;
+	font-size: 16px;
+	color: white;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+	float: left;
+}
+.registro .form .btn-cancelar:hover{
+	background: orange;
+	color: black;
+}
+
+
+/*Inicio de configuración radio button*/
+.registro .radio input[type="radio"]{
+	display: none;
+}
+.registro .radio label{
+	color:white;
+	background: black;
+	padding: 5px 15px 5px 51px;
+	display: inline-block;
+	position: relative;
+	font-family: 1em;
+	border-radius: 3px;
+	cursor:pointer;
+	-webkit-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+.registro .radio label:hover{
+	background: orange;
+}
+.registro .radio label:before{
+	content: "";
+	width: 17px;
+	height: 17px;
+	display: inline-block;
+	background: none;
+	border:3px solid orange;
+	border-radius: 50%;
+	position:absolute;
+	left:17px;
+	top: 4px;
+}
+
+.registro .radio input[type="radio"]:checked + label{
+	padding: 5px 15px;
+	background: orange;
+	border-radius: 2px;
+	color: black;
+}
+
+.registro .radio input[type="radio"]:checked + label:before{
+	display: none;
+}
+/*fin de configuración radio button*/

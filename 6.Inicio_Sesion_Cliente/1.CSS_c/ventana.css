@@ -1,0 +1,35 @@
+.window-notice {
+    background: rgba(33, 41, 52, .85);
+    left: 50%;
+    bottom: 0;
+    right: 50%;
+    top: 0;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+}
+
+.window-notice .content {
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(33, 41, 52, .75);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 305px;
+    min-width: 300px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    padding: 2rem;
+    font-size: 1rem;
+}
+.window-notice .content-buttons {
+    margin-top: 10px;
+    background-color: black;
+}
+
+.window-notice .content .content-text .link {
+    color: blue;
+}

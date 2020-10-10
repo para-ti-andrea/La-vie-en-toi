@@ -1,0 +1,102 @@
+.texto_1{
+    font-size: 20px;
+    margin-left: 7%;
+    margin-top: 2%;
+    width:70%;
+    height:250px;
+}
+
+p{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-family: 'Playfair Display', serif;
+}
+
+.texto_empresa{
+    font-size: 20px;
+    /*margin-left: 35%;*/
+    float: right;
+    margin-top: 1%;
+    margin-right:3%;
+    width:65%;
+    height:140px;
+    text-align:justify;
+}
+.contenedor_img{
+    margin-top: 1%;
+    width:25%;
+    height: 140px;
+}
+
+.imagen {
+    -webkit-transition:all .9s ease;
+    margin-top: 5%;
+    margin-left: 50%;
+    }
+    .imagen:hover {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    }
+    .imagen {/*Ancho y altura son modificables al requerimiento de cada uno*/
+    width:150px;
+    height:100px;
+    overflow:hidden;
+    }
+
+.contenedor{
+    float: left;
+    width: 45%;
+    height: 55%;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.contenedor_2{
+    float: right;
+    width: 45%;
+    height: 55%;
+    margin-top: 5%;
+    margin-right:3%;
+}
+
+.video{
+    width: 100%; 
+}
+
+.texto_cliente{
+    font-size: 20px;
+    /*margin-left: 35%;*/
+    float: right;
+    margin-top: 3%;
+    margin-right:3%;
+    width:70%;
+    height:200px;
+    text-align:justify;
+}
+
+.contenedor_img_c{
+    margin-top: 1%;
+    width:25%;
+    height: 140px;
+}
+
+.imagen_c {
+    -webkit-transition:all .9s ease;
+    margin-top: 15%;
+    margin-left: 50%;
+    }
+    .imagen_c:hover {
+    -webkit-transform:scale(1.25);
+    -moz-transform:scale(1.25);
+    -ms-transform:scale(1.25);
+    -o-transform:scale(1.25);
+    transform:scale(1.25);
+    }
+    .imagen_c {
+    width:150px;
+    height:120px;
+    overflow:hidden;
+    }
+

@@ -1,0 +1,43 @@
+.container_visual{
+	width: 70%;
+	height: 500px;
+	float: right;
+	margin-right: 1px;
+	margin-left: 1px;
+	background-color: red;
+}
+
+.sliter{
+	background-color: salmon;
+	width: 70%;
+	height: 500px;
+	float: left;
+}
+
+.imagenes_pequenas{
+	width: 25%;
+	height: 500px;
+	margin-left: 2%;
+	float: left;
+	overflow: hidden;
+	background-color:orange;
+}
+
+.imagen_pequeña_1{
+	float: left;
+	width:100%;
+	height:240px ;
+	margin-top: 2%;
+	background-color: aqua;
+}
+
+.imagen_2{
+	float: left;
+	margin-top: 4%;
+	width:100%;
+	height:240px;
+	color: white;
+	background-color: black;
+}
+
+

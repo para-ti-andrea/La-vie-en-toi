@@ -1,0 +1,67 @@
+/*Cover Flow*/
+.div_mayor{
+	width: 60%;
+	height: 500px;
+	float: right;
+	margin-top: 1%;
+	margin-right: 2%;
+	margin-left: 2%;
+	background-color: black;
+	border-radius: 5px;
+	overflow: hidden;
+	transition: .1s;
+}
+
+.div_mayor:hover{
+	border-radius: 1px;
+	border: 2px solid #ffae00;
+}
+
+.b{
+	text-align: center;
+	width: 45%;
+	height: 450px;
+	float: left;
+	margin-left: 2.5%;
+	margin-top: 3%;
+	background-color: orange;
+	transition: .2s;
+}
+.b:hover{
+	border-radius: 1px;
+	border: 5px solid white;
+}
+
+.b li{
+	font-family: 'Lobster', cursive;
+	margin-top: 50%;
+	font-size: 40px;
+	color: white;
+	list-style: none;
+}
+
+.c{
+	text-align: center;
+	width: 45%;
+	height: 450px;
+	float: left;
+	margin-left: 5%;
+	margin-top: 3%;
+	background-color: orange;
+	color: white;
+	transition: .2s;
+}
+
+.c:hover{
+	border-radius: 1px;
+	border: 5px solid white;
+}
+
+.c li{
+	font-family: 'Lobster', cursive;
+	margin-top: 50%;
+	font-size: 40px;
+	color: white;
+	list-style: none;
+}
+

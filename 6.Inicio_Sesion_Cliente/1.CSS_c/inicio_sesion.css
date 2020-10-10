@@ -1,0 +1,102 @@
+.inicio_cliente{
+	width:70%;
+	height:450px;
+	margin-left: 15%;
+	margin-top:5%;
+	margin-bottom: 5%;
+	background:url(../2.FOTOS/login_c.jpg);
+	background-size: 100%;
+	border: 1PX solid black;
+	border-radius: 15px;
+}
+
+.inicio_cliente .form{
+	width: 70%;
+	max-width: 650px;
+	margin: auto;
+	padding: 1px 35px;
+	margin-top:1%;
+	padding-bottom:30px;
+	border-radius: 3px;
+}
+
+.inicio_cliente .form .form-label{
+	display: block;
+	color: black;
+	font-size: 16px;
+	font-family: roboto;
+	position: relative;
+}
+
+.inicio_cliente .form .form-input, .form-textarea{
+	background:none;
+	border:none;
+	outline: none;
+	border-bottom: 2px solid black;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 2px;
+	font-size: 16px;
+	color: black;
+	font-family: roboto;
+}
+
+.inicio_cliente .form .form-textarea{
+	resize: vertical;
+	max-height: 150px;
+	min-height: 50px;
+}
+
+.inicio_cliente .form .btn-submit{
+	width: 40%;
+	font-family: roboto;
+	outline: none;
+	background: black;
+	font-size: 16px;
+	color: white;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+	float: right;
+	border-inline-end-style: none;
+}
+.inicio_cliente .form .btn-submit:hover{
+	background: orange;
+	color: black;
+}
+
+.inicio_cliente .form .btn-cancelar{
+	width: 40%;
+	text-align: center;
+	text-decoration: none;
+	font-family: roboto;
+	outline: none;
+	background: black;
+	font-size: 16px;
+	color: white;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+	float: left;
+}
+.inicio_cliente .form .btn-cancelar:hover{
+	background: orange;
+	color: black;
+}
+
+.logo_c{
+	height:120px;
+	width:120px;
+	margin-right:42%;
+	margin-left:42%;
+	background-color:white;
+	border-radius: 50%;
+	border: 3px solid black;
+	margin-top: 1%;
+	transition: all .3s ease;
+}
+
+.logo_c:hover{
+	background: burlywood;
+}

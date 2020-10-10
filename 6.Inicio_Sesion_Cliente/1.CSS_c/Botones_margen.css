@@ -1,0 +1,39 @@
+.seleccion{
+	width:80%;
+	height:300px;
+	border: 3px solid black;
+	margin-top: 5%;
+	margin-left: 10%;
+	border-radius:20px ; 
+	background: url(../2.FOTOS/fondo.JPG);
+	background-size: 100%;
+	font-family:'Raleway', sans-serif;
+}
+
+h3{
+	font-family:'Raleway', sans-serif;	
+	padding: 10px 15px;
+}
+
+.btn-registro{
+	width: 40%;
+	text-align: center;
+	text-decoration: none;
+	font-family: roboto;
+	outline: none;
+	background: black;
+	font-size: 16px;
+	color: white;
+	padding: 15px 0;
+	cursor: pointer;
+	transition: all .5s ease;
+	float: left;
+	margin-top: 7%;
+	margin-left: 5%;
+	border-radius: 15px;
+	border: 1px solid black;
+}
+.btn-registro:hover{
+	background: orange;
+	color: black;
+}
